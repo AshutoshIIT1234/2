@@ -1,0 +1,40 @@
+{
+  "name": "mycampainion",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@bedrock_org/passport": "^1.0.2",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.2.0",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.9.0",
+    "ethers": "^6.14.0",
+    "postcss": "^8.4.33",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1",
+    "react-speech-kit": "^3.0.1",
+    "react-speech-recognition": "^4.0.1",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.30.1",
+    "vite": "^6.3.5"
+  }
+}
